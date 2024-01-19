@@ -6,8 +6,9 @@ Discord & Twitch chatbot
 
 To run the bot 2 files need to exist: `secrets.toml` and `data.toml`.
 
+
+secrets.toml:
 ```toml
-# secrets.toml
 [twitch]
 auth = "oauth:oauth_token"
 username = "bot_name"
@@ -18,8 +19,9 @@ auth = "discord_token"
 username = "bot_name"
 id = "bot_id"
 ```
+
+data.toml:
 ```toml
-# data.toml
 [today]
   Text = "today"
 
